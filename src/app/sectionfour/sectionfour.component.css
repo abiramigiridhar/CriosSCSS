@@ -1,0 +1,52 @@
+.alignment{
+    margin-top: 8%;
+    }
+
+    .column {
+        float: left;
+        width: 50%;
+       
+      }
+      .columnwide {
+        float: left;
+        width: 50%;
+        bottom: 45px;
+      }
+
+.imageone{
+    background-image:url(/assets/sec.jpg);
+    padding: -70px;
+}
+
+.imagesecond{
+    background-image:url(/assets/sect.jpg);
+    padding: 30px;
+}
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .image{
+       padding:135px;
+    
+      }
+
+      .bottom-line{
+        font-size: 35px;
+        color: rgb(67, 169, 255);
+        font-family: "Montserrat"; 
+        letter-spacing: normal;
+        padding: 300px 0px 00px 70px;
+    }
+    .subline {
+        position: absolute;
+        font-family: "Montserrat";
+        opacity: 0.3;
+        font-size: 13px;
+        line-height: 200%;
+        padding: 0px 0px 70px 70px;
+        width: 30%;
+      }

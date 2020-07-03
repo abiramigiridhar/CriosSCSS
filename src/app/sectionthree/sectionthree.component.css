@@ -1,0 +1,31 @@
+.column {
+    float: left;
+    width: 50%;
+   
+   
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .alignment{
+    margin-top: 8%;
+    }
+
+    .bottom-line{
+        font-size: 35px;
+        font-family: "Montserrat"; 
+        letter-spacing: normal;
+        padding: 70px 0px 00px 70px;
+    }
+    .subline {
+        position: absolute;
+        font-family: "Montserrat";
+        opacity: 0.3;
+        font-size: 13px;
+        line-height: 200%;
+        padding: 0px 0px 70px 70px;
+        width: 30%;
+      }
